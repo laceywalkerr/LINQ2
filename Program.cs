@@ -28,7 +28,8 @@ namespace linq2
             }
         }
 
-        // from fruit in fruits
+        // Another way to do it::::
+        // IEnumerable<string> LFruits = from fruit in fruits
         // where fruit.StartsWith("L")
         // select fruit;
 
