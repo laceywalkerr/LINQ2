@@ -105,7 +105,7 @@ namespace linq2
                 96
             };
 
-            IEnumerable<int> ascend = numbers.OrderBy(n => n);
+            IEnumerable<int> ascend = numbers.OrderBy(taco => taco);
             foreach (int number in ascend)
             {
                 Console.WriteLine(number);
