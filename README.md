@@ -4,7 +4,7 @@
 
 ### Visualization of LINQ methods
 
-![linq methods chart](.https://i.imgur.com/5TXlQRu.jpg)
+![linq methods chart](https://i.imgur.com/5TXlQRu.jpg)
 
 
 ## LINQ Methods
