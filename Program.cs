@@ -8,7 +8,7 @@ namespace linq2
     {
         static void Main(string[] args)
         {
-            // Find the words in the collection that start with the letter 'L'
+            // // Find the words in the collection that start with the letter 'L'
             // List<string> fruits = new List<string>()
             // {
             //     "Lemon",
@@ -26,6 +26,18 @@ namespace linq2
             // {
             //     Console.WriteLine(fruit);
             // }
+
+            // // Another way to do it::::
+            // IEnumerable<string> LFruits = from fruit in fruits
+            // where fruit.StartsWith("L")
+            // select fruit;
+
+            // foreach (string fruit in LFruits)
+            // {
+            //     Console.WriteLine($"L Fruits: {fruit}");
+            // }
+
+            // Which of the following numbers are multiples of 4 or 6
 
             // List<int> numbers = new List<int>()
             // {
@@ -87,6 +99,31 @@ namespace linq2
             // }
 
             // Build a collection of these numbers sorted in ascending order
+            // List<int> numbers = new List<int>()
+            // {
+            //     15,
+            //     8,
+            //     21,
+            //     24,
+            //     32,
+            //     13,
+            //     30,
+            //     12,
+            //     7,
+            //     54,
+            //     48,
+            //     4,
+            //     49,
+            //     96
+            // };
+
+            // IEnumerable<int> ascend = numbers.OrderBy(taco => taco);
+            // foreach (int number in ascend)
+            // {
+            //     Console.WriteLine(number);
+            // }
+
+            // Output how many numbers are in this list
             List<int> numbers = new List<int>()
             {
                 15,
@@ -105,25 +142,38 @@ namespace linq2
                 96
             };
 
-            IEnumerable<int> ascend = numbers.OrderBy(taco => taco);
-            foreach (int number in ascend)
-            {
-                Console.WriteLine(number);
-            }
+            int count = numbers.Count();
+            Console.WriteLine(count);
+
+            // How much money have we made?
+            // List<double> purchases = new List<double>()
+            // {
+            //     2340.29,
+            //     745.31,
+            //     21.76,
+            //     34.03,
+            //     4786.45,
+            //     879.45,
+            //     9442.85,
+            //     2454.63,
+            //     45.65
+            // };
+
+            // What is our most expensive product?
+            // List<double> prices = new List<double>()
+            // {
+            //     879.45,
+            //     9442.85,
+            //     2454.63,
+            //     45.65,
+            //     2340.29,
+            //     34.03,
+            //     4786.45,
+            //     745.31,
+            //     21.76
+            // };
 
         }
-
-        // Another way to do it::::
-        // IEnumerable<string> LFruits = from fruit in fruits
-        // where fruit.StartsWith("L")
-        // select fruit;
-
-        // foreach (string fruit in LFruits)
-        // {
-        //     Console.WriteLine($"L Fruits: {fruit}");
-        // }
-
-        // Which of the following numbers are multiples of 4 or 6
 
     }
 }
