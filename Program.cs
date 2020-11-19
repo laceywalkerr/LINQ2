@@ -20,12 +20,9 @@ namespace linq2
 
             };
 
-            IEnumerable<string> LFruits = from fruit in fruits.Where(fruits => fruits.StartsWith("L"))
-
-            Console.WriteLine(LFruits);
-
-            // where fruit.StartsWith(L)
-            // select fruit;
+            IEnumerable<string> LFruits = from fruit in fruits
+            where fruit.StartsWith("L")
+            select fruit;
         }
-    };
-};
+    }
+}
