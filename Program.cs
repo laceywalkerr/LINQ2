@@ -50,6 +50,42 @@ namespace linq2
             {
                 Console.WriteLine(number);
             }
+
+            // Order these student names alphabetically, in descending order (Z to A)
+            List<string> names = new List<string>()
+            {
+                "Heather",
+                "James",
+                "Xavier",
+                "Michelle",
+                "Brian",
+                "Nina",
+                "Kathleen",
+                "Sophia",
+                "Amir",
+                "Douglas",
+                "Zarley",
+                "Beatrice",
+                "Theodora",
+                "William",
+                "Svetlana",
+                "Charisse",
+                "Yolanda",
+                "Gregorio",
+                "Jean-Paul",
+                "Evangelina",
+                "Viktor",
+                "Jacqueline",
+                "Francisco",
+                "Tre"
+            };
+
+            IEnumerable<string> descend = names.OrderByDescending(n => n);
+            foreach (string name in descend)
+            {
+                Console.WriteLine(name);
+            }
+
         }
 
         // Another way to do it::::
