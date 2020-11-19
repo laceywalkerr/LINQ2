@@ -1,0 +1,5 @@
+C:\Users\Lacey\workspace\linq2\obj\Debug\net5.0\linq2.csprojAssemblyReference.cache
+C:\Users\Lacey\workspace\linq2\obj\Debug\net5.0\linq2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lacey\workspace\linq2\obj\Debug\net5.0\linq2.AssemblyInfoInputs.cache
+C:\Users\Lacey\workspace\linq2\obj\Debug\net5.0\linq2.AssemblyInfo.cs
+C:\Users\Lacey\workspace\linq2\obj\Debug\net5.0\linq2.csproj.CoreCompileInputs.cache
