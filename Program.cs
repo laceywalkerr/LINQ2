@@ -23,6 +23,11 @@ namespace linq2
             IEnumerable<string> LFruits = from fruit in fruits
             where fruit.StartsWith("L")
             select fruit;
+
+            foreach (string fruit in LFruits)
+            {
+                Console.WriteLine($"L Fruits: {fruit}");
+            }
         }
     }
 }
